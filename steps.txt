@@ -1,0 +1,32 @@
+Todo App.
+
+1.Setup Express server.
+2 mongoDB connection.
+3.Set the Express View Engine to EJS.
+
+4.Registration Page and Registration API.
+5.Login Page and Login API.
+
+6.Session Based auth.
+7.Create Middleware to protect the APIs.
+
+8.Dashboard Page.
+
+9.Logout API.
+10.Logout from all devices API.
+
+-> Todo APIs-
+1.Create API
+2.Read API
+3.Edit API
+4.Delete API.
+
+-> Dashboard Client side-
+axios create
+axios read
+axios delete
+axios edit
+
+-> Optimization features add-
+1.Rate limiting
+2.Pagination APIs
