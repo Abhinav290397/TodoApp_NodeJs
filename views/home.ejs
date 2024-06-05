@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        Body{
+            background-color: black;
+            font-family: Calibri, Helvetica, sans-serif;
+        }
+        .btn{
+            color: black;
+            background-color: white;
+            height: 40px;
+            width: 180px;
+            border-radius: 10px;
+            font-weight: 600;
+            font-size: 17px;
+        }
+        .btn:hover{
+            cursor: pointer;
+        }
+        .container{
+            margin-top: 40px;
+            display: flex;
+            align-items: center;
+            margin-left: 600px;
+            
+        }
+        h1{
+            color: white;
+            text-align: center;
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Todo App</h1>
+    <div class="container">
+        <form action="/register" method="GET">
+            <button class="btn" type="submit">Signin</button>
+        </form>
+    
+        <form action="/login" method="GET">
+            <button class="btn" type="submit">Login</button>
+        </form>
+    </div>
+
+</body>
+</html>

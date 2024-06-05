@@ -45,7 +45,7 @@ mongoose.connect(MONGO_URI).then(() => {
 //APIs-
 
 app.get("/", (req, res) => {
-    return res.send('Server is running Good!!!!');
+    return res.render("home");
 });
 
 //register api.
